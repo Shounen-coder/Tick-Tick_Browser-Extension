@@ -1,0 +1,25 @@
+.time-tracker-ui {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    cursor: move;
+    user-select: none;
+    font-family: Arial, sans-serif;
+    right: 20px;
+    top: 20px;
+    min-width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .time-tracker-ui:not(:hover) {
+    opacity: 0.3;
+  }
+  
+  .time-tracker-ui div {
+    margin: 5px 0;
+    font-size: 14px;
+  }
