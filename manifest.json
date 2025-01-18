@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Tab Time Tracker",
+    "name": "Tick Tick",
     "version": "1.0",
     "description": "Track time spent on browser tabs with a floating UI",
     "permissions": [
